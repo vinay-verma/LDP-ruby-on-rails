@@ -1,0 +1,49 @@
+.horizontal_divider {
+    height: 2px;
+    background-color: lightgray;
+}
+
+.svg_icons {
+    fill: grey;
+}
+
+.bento_menu_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.top_header_container {
+    height: 2em;
+    position: relative;
+}
+
+.top_header {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.top_header__left {
+    display: flex;
+    width: 10em;
+    float: left;
+}
+
+.top_header__left .item {
+    margin: auto;
+}
+.top_header__right {
+    display: flex;
+    width: 10em;
+    float: right;
+}
+
+.top_header__right .item {
+    margin: auto;
+}
+
+.profile_picture {
+    border-radius: 20px;
+}
